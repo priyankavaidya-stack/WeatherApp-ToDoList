@@ -1,0 +1,68 @@
+.home {
+  text-align: center;
+}
+
+.home_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10% 7%;
+  min-height: 300px;
+}
+
+.home_cardOne {
+  background-color: #00203f;
+}
+
+.home_cardTwo {
+  background-color: #acefd1;
+}
+
+.home_titleOne {
+  color: #fff;
+  padding: 30px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.home_titleTwo {
+  padding: 30px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #551a8b;
+}
+.home_link {
+  text-decoration: none !important;
+  display: flex;
+  justify-content: center;
+}
+
+.click_hereOne {
+  background-color: transparent;
+  border: 1px solid #acefd1;
+  padding: 5px 10px;
+  width: 130px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.click_hereOne:hover {
+  background-color: #acefd1;
+  color: #00203f;
+}
+
+.click_hereTwo {
+  background-color: transparent;
+  border: 1px solid #00203f;
+  padding: 5px 10px;
+  width: 130px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #551a8b;
+}
+
+.click_hereTwo:hover {
+  background-color: #00203f;
+  color: #fff;
+}
